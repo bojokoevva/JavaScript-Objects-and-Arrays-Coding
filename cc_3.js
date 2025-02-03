@@ -10,7 +10,7 @@ console.log("Updated Prices:", prices);
 
 let orders = [5, 10, 15, 20, 25];
 orders[2] += 5; // Increase third order by 5
-let totalOrders = orders.reduce((sum, order) => sum + order, 0);
+let totalOrders = orders.reduce((sum, order) => sum + order, 0); // Calculate the total quantity of orders
 console.log("Updated Orders:", orders);
 console.log("Total Order Count:", totalOrders);
 
@@ -46,7 +46,7 @@ let inventory = {
     stockCount: 50,
     price: 800,
     calculateTotalValue: function() {
-        return this.stockCount * this.price;
+        return this.stockCount * this.price; // Calculate total inventory value
     }
 };
 console.log("Inventory Details:", inventory);
