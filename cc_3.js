@@ -26,3 +26,14 @@ let employee = {
 employee.performanceScore = 90; // Update performance score
 employee.promotionEligible = true; // Add new property
 console.log("Updated Employee:", employee);
+
+
+// Task 4: Customer Feedback Records
+
+let feedback = [
+    { customerName: "Alice", feedbackText: "Great service!", rating: 5 },
+    { customerName: "Bob", feedbackText: "Good experience", rating: 4 },
+    { customerName: "Charlie", feedbackText: "Average support", rating: 3 }
+];
+feedback.push({ customerName: "David", feedbackText: "Excellent product!", rating: 5 });
+console.log("Feedback List:", feedback);
